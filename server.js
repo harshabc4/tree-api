@@ -6,20 +6,20 @@ const PORT = process.env.PORT || 8000
 app.use(cors())
 
 const woodSpecies = {
-    'property1': {
-        'dataset1' : 12345,
-        'dataset2' : 'asdf',
-        'dataset3' : 'asdf'
+    'douglas fir': {
+        'name' : 'Pseudotsuga menziesii',
+        'location' : 'western North America',
+        'Janka Hardness' : '620'
     },
-    'property2' : {
-        'dataset1' : 12345,
-        'dataset2' : 'asdf',
-        'dataset3' : 'asdf'
+    'red oak' : {
+        'name' : 'Quercus rubra',
+        'location' : 'United States and Canada',
+        'Janka Hardness' : '1220'
     },
-    'unknown' : {
-        'dataset1' : 12345,
-        'dataset2' : '?',
-        'dataset3' : 'asdf'
+    'eucalyptus' : {
+        'name' : 'Eucalyptus urograndis',
+        'location' : 'Brazil',
+        'Janka Hardness' : '1420'
     }
 }
 
