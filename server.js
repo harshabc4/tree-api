@@ -20,6 +20,11 @@ const woodSpecies = {
         'name' : 'Eucalyptus urograndis',
         'location' : 'Brazil',
         'Janka Hardness' : '1420'
+    },
+    'unknown' : {
+        'name' : 'unknown',
+        'location' : 'unknown',
+        'Janka Hardness' : 'unknown'
     }
 }
 
